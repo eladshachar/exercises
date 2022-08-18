@@ -1,0 +1,23 @@
+#wrapping{
+    display: inline-block;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+#ribbon-horizontal{
+    background-color: red;
+    position: absolute;
+    width: 300px;
+    height:15px;
+    top: 30px;
+}
+
+#ribbon-vertical{
+    background-color: red;
+    position: absolute;
+    width: 15px;
+    height:300px;
+    left: 50px;
+}

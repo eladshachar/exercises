@@ -1,0 +1,43 @@
+#parent{
+    background-color: blueviolet;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+}
+
+.column{
+    background-color: darkgray;
+    width: 15px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#column1{
+    height: 30px;
+    left: 10px;
+}
+
+#column2{
+    height: 70px;
+    left: 45px;
+}
+
+#column3{
+    height: 100px;
+    left: 80px;
+}
+
+#column4{
+    height: 90px;
+    left: 115px;
+}
+
+#column5{
+    height: 70px;
+    left: 150px;
+}
+
+#column6{
+    height: 50px;
+    left: 185px;
+}

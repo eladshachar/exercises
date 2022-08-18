@@ -1,0 +1,39 @@
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f t";
+}
+
+#friends-list{
+    background-color: purple;
+    grid-area: f;
+}
+
+#chat-box{
+    background-color: lightgrey;
+    grid-area: c;
+}
+
+#typing-section{
+    grid-area: t;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-areas: 
+    "t s";
+}
+
+#input{
+    grid-area: t;
+}
+
+#send{
+    color: white;
+    background-color: purple;
+    grid-area: s;
+    align-content: center;
+}
+
