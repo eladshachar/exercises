@@ -1,0 +1,50 @@
+#container{
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#box1 {
+    background-color: black;
+}
+
+#box2 {
+    background-color: black;
+}
+
+#box3 {
+    background-color: black;
+}
+
+#box4 {
+    background-color: black;
+}
+
+#box5 {
+    background-color: black;
+}
+
+#box6 {
+    background-color: black;
+}
+
+#box7 {
+    background-color: black;
+}
+
+#box8 {
+    background-color: black;
+}
+
+#box9 {
+    background-color: black;
+}
+
+#box0 {
+    background-color: black;
+}
