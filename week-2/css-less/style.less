@@ -1,0 +1,43 @@
+.element{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 5px;
+    
+}
+
+#login-container{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 2%;
+    position: relative;
+
+    .writing{
+        &:extend(.element);
+        color: aliceblue; 
+    }
+
+    .input{
+        &:extend(.element);
+    }
+   
+    #login-button{
+        &:extend(.element);
+        background-color: white;
+        border-radius: 30%;
+        border-color: transparent;
+    }
+
+    
+    #bottom-section{
+       height: 100px;
+       background-color: darkred;
+       border-radius: 2%;
+       align-content: flex-end;
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+    }
+}

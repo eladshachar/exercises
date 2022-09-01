@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+    
+    <script>
+        src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.js"
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <script id="students-template" type="text/x-handlebars-template">
+        <ul>
+          {{#each students}}
+            <li>name:{{name}}, description: {{description}}</li>
+          {{/each}}
+        </ul>
+      </script>
+      
+      <div class="students">
+      </div>
+
+</body>
+</html>

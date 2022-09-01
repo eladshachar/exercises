@@ -1,9 +1,8 @@
-let count = 0
 let recipe = {
     "name": "Mashed Potatoes",
     "serves": 4,
     "calories": 250,
-    "health information": "It is a healthy meal",
+    "healthy": true,
     "ingredients": [
       {
         "name": "water"

@@ -1,0 +1,35 @@
+{
+    "animals": [
+        {
+            "name": "Giraffe",
+            "weight": 400,
+            "habitat": "savannah",
+            "endangered": true,
+            "nutrition": [{"leaves": 75}, {"roots": 10}, {"grass": 15}],
+            "animals with similar diet": ["Elephant", "Rhino"],
+            "deliciousness": 4
+        },
+
+        {
+            "name": "Cow",
+            "weight": 200,
+            "habitat": "farm",
+            "endangered": false,
+            "nutrition": [{"grass": 75}, {"grain": 25}],
+            "animals with similar diet": ["Sheep", "Goat"],
+            "deliciousness": 5
+        },
+
+        {
+            "name": "Squirrel",
+            "weight": 1,
+            "habitat": "forrest",
+            "endangered": false,
+            "nutrition": [{"nuts": 100}],
+            "animals with similar diet": ["Chipmunk"],
+            "deliciousness": 1
+        }
+    ]
+
+
+}
