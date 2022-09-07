@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+
+#ball{
+   grid-column: 2;
+   grid-row: 2;
+   background-color: #f1c40f;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   transition-duration: 3s;
+}
+
+#ball:hover{
+    box-shadow: 0 0 40px #f1c40f; 
+}
