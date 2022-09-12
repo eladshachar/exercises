@@ -54,7 +54,9 @@
     background-color: #3498db;
     height: 100%;
     width: 100px;
+    transition: display 2s;
 }
+
 
 .menu.active{
     display: flex;
