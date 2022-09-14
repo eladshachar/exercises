@@ -1,6 +1,3 @@
-from logging import error
-
-
 def fibonaci(num):
     if num < 1:
         raise Exception
@@ -22,5 +19,3 @@ def fibonaci(num):
             i += 1
 
         return res
-
-print(fibonaci(6))
