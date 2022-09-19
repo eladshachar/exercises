@@ -33,5 +33,6 @@ async def create_wonder(request: Request):
     wonders.append(new_wonder)
     return "Created"
 
+
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
