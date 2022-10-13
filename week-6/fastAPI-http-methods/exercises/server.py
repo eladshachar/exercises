@@ -1,9 +1,7 @@
-from urllib import response
 from urllib.request import Request
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-import requests
 import uvicorn
 
 app = FastAPI()
